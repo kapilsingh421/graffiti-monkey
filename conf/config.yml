@@ -2,9 +2,11 @@
 #region: us-west-1
 _instance_tags_to_propagate:
   - 'Name'
+  - 'vpc'  
 
 _volume_tags_to_propagate:
   - 'Name'
+  - 'vpc'  
   - 'instance_id'
   - 'device'
 
